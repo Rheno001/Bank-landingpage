@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*.btn{
+    @apply bg-pink; 
+    @apply shadow-md;  }
+    
+  .btn:hover{
+    @apply bg-blue;
+    @apply shadow-md
+  }*/

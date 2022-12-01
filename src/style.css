@@ -1,0 +1,43 @@
+.main-pic{
+    background: url(images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
+.main-pic img{
+    margin-top: -150px;
+}
+.btn{
+    background: linear-Gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+.attribution {margin-top: 15px; font-size: 11px; color: rgb(0, 0, 0); text-align: center; }
+.attribution a { color: rgb(2, 155, 155); }
+@media (min-width:600px) and (max-width:900px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards .first,
+    .second,
+    .third,
+    .fourth{
+        width: 500px;
+
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .big button{
+        width: 100px;
+        font-size: 12px;
+    }
+}

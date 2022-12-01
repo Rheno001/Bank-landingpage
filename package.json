@@ -1,0 +1,14 @@
+{
+  "name": "bank-landingpage",
+  "version": "1.0.0",
+  "description": "A bank landingpage from frontendmentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rheno\\",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
