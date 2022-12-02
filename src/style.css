@@ -3,20 +3,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 100px;
-}
-nav{
-    position: fixed;
-    width: 100%;
 }
 .main-pic img{
-    margin-top: -150px;
+    margin-top: -45px;
 }
 .btn{
     background: linear-Gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
 }
-.attribution {margin-top: 15px; font-size: 11px; color: rgb(0, 0, 0); text-align: center; }
-.attribution a { color: rgb(2, 155, 155); }
+.btn:hover{
+    background: linear-Gradient(to right, hsl(136, 72%, 72%), hsl(192, 95%, 42%));
+}
 @media (min-width:600px) and (max-width:900px){
     .cards{
         display: flex;
