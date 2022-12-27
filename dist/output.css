@@ -517,8 +517,28 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .top-0 {
   top: 0px;
+}
+
+.right-24 {
+  right: 6rem;
+}
+
+.right-\[-100\%\] {
+  right: -100%;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.z-\[100\] {
+  z-index: 100;
 }
 
 .my-5 {
@@ -586,6 +606,14 @@ video {
   margin-top: 15px;
 }
 
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -602,12 +630,48 @@ video {
   height: 320px;
 }
 
+.h-\[30px\] {
+  height: 30px;
+}
+
+.h-\[15px\] {
+  height: 15px;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
 
 .w-\[900px\] {
   width: 900px;
+}
+
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[30px\] {
+  width: 30px;
+}
+
+.w-\[15px\] {
+  width: 15px;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .cursor-pointer {
@@ -677,6 +741,21 @@ video {
 .bg-darkBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(233 26% 24% / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -793,6 +872,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.transition-\[0\.5s\] {
+  transition-property: 0.5s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 /*.btn{
     @apply bg-pink; 
     @apply shadow-md;  }
@@ -802,8 +887,25 @@ video {
     @apply shadow-md
   }*/
 
+.hover\:items-center:hover {
+  align-items: center;
+}
+
 .hover\:border-b-2:hover {
   border-bottom-width: 2px;
+}
+
+.hover\:bg-green-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.hover\:p-8:hover {
+  padding: 2rem;
+}
+
+.hover\:p-5:hover {
+  padding: 1.25rem;
 }
 
 .hover\:text-limeGreen:hover {
